@@ -1,0 +1,25 @@
+<header class="bar bar-nav">
+  <h1 class="title">JavaScript Gurus</h1>
+</header>
+
+<div class="content has-footer">
+  <div class="card">
+    <ul class="table-view">
+      {{#each contact in controller}}
+      <li class="table-view-cell media">
+        {{#link-to "contacts.show" contact class="navigate-right"}}
+          <img class="media-object pull-left" {{bind-attr src=contact.avatar}}>
+          <div class="media-body">
+            {{contact.fullName}}
+            <p>{{contact.id}}</p>
+          </div>
+        {{/link-to}}
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+<div class="bar bar-standard bar-footer">
+  <a {{action "refresh"}} {{bind-attr class=":icon :icon-refresh isRefreshing:spin :pull-right"}}></a>
+</div>
