@@ -1,6 +1,9 @@
 # Building Guru App with EmberCLI
 
-Example app found at [http://goo.gl/K0Lf61](http://goo.gl/K0Lf61)
+* Demo: [http://goo.gl/K0Lf61](http://goo.gl/K0Lf61)
+* Slides: [http://goo.gl/GvhkWE](http://goo.gl/GvhkWE)
+ 
+[![Video](http://img.youtube.com/vi/O7XSeSZ_JNI/0.jpg)](http://www.youtube.com/watch?v=O7XSeSZ_JNI)
 
 This app requires EmberCLI to be installed. You can install it via npm using `npm install -g ember-cli`
 
